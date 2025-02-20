@@ -7,7 +7,7 @@ Note: This project assumes you have Docker, Docker Compose, Ruby, and Bundler in
 Installation
 
 1. Clone Repository and navigate to project directory.
-2. Start the RabbitMQ service by running the following script: `./local-bin/start-hopping`
+2. Start the RabbitMQ service by running the following script: `./local-bin/start`
 3. Bundle install the `bunny` gem by running the following script: `./local-bin/setup`
 4. Starter a worker service by running: `ruby worker.rb`
 5. Test a message send by running `ruby new_task.rb` in another terminal instance. You should see `"Received Hello World!"` in the worker terminal instance.
