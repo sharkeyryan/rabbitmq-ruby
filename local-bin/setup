@@ -1,0 +1,11 @@
+#!/bin/bash
+
+bundle install
+
+# Check if the command was successful
+if [ $? -eq 0 ]; then
+    echo "Bundle install completed successfully"
+else
+    echo "Bundle install failed"
+    exit 1
+fi
