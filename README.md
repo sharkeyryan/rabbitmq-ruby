@@ -8,7 +8,7 @@ Installation
 2. Start the RabbitMQ service by running the following script: `./local-bin/start`
 3. Bundle install the `bunny` gem by running the following script: `./local-bin/setup`
 4. Start a "worker" service by running `ruby worker.rb` in a terminal.
-5. Test a message send/receive by running `ruby new_task.rb` in another terminal instance. You should see `"Received Hello World!"` in the "worker" terminal instance.
+5. Test a message send/receive by running `ruby new_task.rb` in another terminal instance. You should see `"Received Hello from the otter side!!"` in the "worker" terminal instance.
 
 Notes: 
 
